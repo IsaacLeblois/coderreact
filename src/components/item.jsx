@@ -3,12 +3,12 @@ import "./item.css"
 
 export default function Item(props) {
   return (
-    <div class="card">
+    <div className="card">
         <img src={props.imgurl} />
-        <div class="card-body">
-            <h5 class="card-title">{props.name}</h5>
-            <p class="card-text">{props.manufacturer}</p>
-            <a href="#" class="btn btn-dark btnPrice">{props.price} Mill. de USD</a>
+        <div className="card-body">
+            <h5 className="card-title">{props.name}</h5>
+            <p className="card-text">{props.manufacturer}</p>
+            <a href="#" className="btn btn-dark btnPrice">{props.price} Mill. de USD</a>
         </div>
     </div>
   )
